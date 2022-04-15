@@ -1,10 +1,13 @@
 import './App.css';
 import Tempapp from './Components/Tempapp';
 
-function App() {
+const  App = ( ) => {
   return (
     <Tempapp/>
   );
 }
 
 export default App;
+
+
+

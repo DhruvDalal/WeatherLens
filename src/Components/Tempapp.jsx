@@ -5,7 +5,7 @@ import './css/style.css';
      const [city,setCity] =useState(null);
      const [search,setSearch] =useState("Mumbai");
      useEffect(()=>{
-         const fetchApi =async()=>{
+         const fetchApi = async()=>{
              const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=7e4076ba41385d52ceb8e7fbf237bbd9`;
              const response = await fetch(url);
              const resJson =await response.json();
